@@ -1,0 +1,55 @@
+
+..::-= INFORMACION DEL ANFITRION =-::..
+
+IP: 192.168.164.130	GATEWAY: 192.168.164.1	IF: wlp2s0
+
+
+..::-= DESCUBRIMIENTO DE HOST OBJETIVOS =-::..
+
+> 192.168.164.1 (_gateway)                 ICMP PING (0): ???             TCP SYN (1): 1.63 ms
+> 192.168.164.3 (-)                        ICMP PING (1): 15.14 ms        TCP SYN (1): 14.62 ms
+> 192.168.164.4 (-)                        ICMP PING (1): 16.57 ms        TCP SYN (1): 14.56 ms
+> 192.168.164.80 (-)                       ICMP PING (1): 85.28 ms        TCP SYN (1): 81.54 ms
+> 192.168.164.130 (PC-ERDU)                ICMP PING (1): 1.49 ms         TCP SYN (1): 0.3 ms
+
+Duracion total: 1.43 min
+
+
+..::-= SONDEO DE PUERTOS EN HOST VIVOS =-::..
+
+>>> 192.168.164.1 (_gateway)
+	 > 53/tcp     domain          Domain Name Server        Estado: Abierto              Sondeos: 1    RTT: 3.98 ms
+	 > 68/udp     dhcpc           DHCP/Bootstrap Protocol Client Estado: Abierto | Filtrado   Sondeos: 1    RTT: 22.78 min
+
+	Puertos abiertos: 1
+	Puertos abiertos | filtrados: 1
+	Puertos cerrados: 8
+
+>>> 192.168.164.3 (-)
+	 > 80/tcp     http            World Wide Web HTTP       Estado: Abierto              Sondeos: 1    RTT: 30.27 ms
+	 > 554/tcp    rtsp            Real Time Stream Control Protocol | Real Time Streaming Protocol (RTSP) Estado: Abierto              Sondeos: 1    RTT: 31.0 ms
+
+	Puertos abiertos: 2
+	Puertos cerrados: 1023
+
+>>> 192.168.164.4 (-)
+	 > 80/tcp     http            World Wide Web HTTP       Estado: Abierto              Sondeos: 1    RTT: 60.0 ms
+	 > 554/tcp    rtsp            Real Time Stream Control Protocol | Real Time Streaming Protocol (RTSP) Estado: Abierto              Sondeos: 1    RTT: 15.0 ms
+
+	Puertos abiertos: 2
+	Puertos cerrados: 1023
+
+>>> 192.168.164.80 (-)
+	Puertos cerrados: 1025
+
+>>> 192.168.164.130 (PC-ERDU)
+	 > 23/tcp     telnet                                    Estado: Abierto              Sondeos: 1    RTT: 81.93 ms
+	 > 138/udp    netbios-dgm     NETBIOS Datagram Service  Estado: Abierto | Filtrado   Sondeos: 1    RTT: 1.22 min
+	 > 139/tcp    netbios-ssn     NETBIOS Session Service   Estado: Abierto              Sondeos: 1    RTT: 71.12 ms
+	 > 445/tcp    microsoft-ds    SMB directly over IP      Estado: Abierto              Sondeos: 1    RTT: 30.99 ms
+
+	Puertos abiertos: 3
+	Puertos abiertos | filtrados: 1
+	Puertos cerrados: 1021
+
+Duracion total: 34.24 min

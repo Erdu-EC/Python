@@ -87,7 +87,7 @@ except:
 
 #Informando variables
 print("\n..::-= INFORMACION DEL ANFITRION =-::..\n")
-print("IP: %s\tGATEWAY: %s\tIF: %s" % (MY_IP, GATEWAY_IP, GATEWAY_IF))
+print("IP: %s\tGATEWAY: %s\tIF: %s\n" % (MY_IP, GATEWAY_IP, GATEWAY_IF))
 
 ####################################################################
 print("\n..::-= DESCUBRIMIENTO DE HOST OBJETIVOS =-::..\n", )

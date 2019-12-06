@@ -1,0 +1,17 @@
+TCP		UDP			Resultado
+Abierto		Abierto 		TCP -> Abierto		X
+Abierto 	Cerrado 		TCP -> Abierto		X
+Abierto		Filtrado 		TCP -> Abierto		X
+Abierto		Abierto|Filtrado 	TCP -> Abierto		X
+
+Cerrado		Abierto			UDP -> Abierto		X
+Cerrado		Cerrado			TCP -> Cerrado		X
+Cerrado		Filtrado		UDP -> 
+Cerrado		Abierto|Filtrado	UDP -> Abierto|Filtrado	X
+
+Filtrado	Abierto			UDP -> Abierto 		X
+Filtrado	Cerrado
+Filtrado 	Filtrado		TCP -> Filtrado 	X
+Filtrado	Abierto|Filtrado	TCP -> Filtrado		X
+
+X = Resultado implementado
