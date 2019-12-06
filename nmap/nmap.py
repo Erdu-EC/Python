@@ -1,4 +1,7 @@
-__version__ = "1.0"
+#Autor: Eduardo Eliezar Castillo Hernández
+#Fecha: 06/12/2019
+
+__version__ = "1.5"
 
 #Importando libreria de parametros
 from Misc.docopt import docopt
@@ -222,7 +225,7 @@ for address in alive_list:
         #Obteniendo datos de protocolos
         protocol = Tools.getProtocol(num_port, port['TYPE'])
 
-        print("\t > {:21} {:10} {:25} Estado: {:25} Sondeos: {:5s} RTT: {}".format(
+        print("\t > {:10} {:15} {:25} Estado: {:20} Sondeos: {:4s} RTT: {}".format(
             str(num_port) + '/' + str(port['TYPE']), protocol[0], protocol[1], PortStates.to_str(port['STATE']), str(port['SEND']), Tools.get_time(port['RTT'])
         ))
         

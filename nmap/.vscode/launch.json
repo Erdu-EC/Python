@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "/home/erdu/Documentos/Python/nmap/nmap.py",
             //"args": ["-m 1", "192.168.164.130/24"],
-            "args": ["-m 1","192.168.43.68/24"],
+            "args": ["-m 2", "-r 81","192.168.43.68/24"],
             "console": "integratedTerminal",
             "sudo": true
         }

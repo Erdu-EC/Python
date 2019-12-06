@@ -71,7 +71,7 @@ class Tools(object):
 
     @staticmethod
     def getProtocol(port, protocol):
-        if protocol == '?': return 'Desconocido'
+        if protocol == '?': return ('Desconocido', 'Sin descripcion')
 
         fichero = open('./Misc/nmap-services','r')
 
@@ -84,6 +84,6 @@ class Tools(object):
             if str(port) + '/' + protocol in lista:
                 fichero.close()
                 return (lista[0], " ".join(lista[4:]))
-            else:
-                fichero.close()
-                return 'Desconocido'
+            
+        fichero.close()
+        return ('Desconocido', 'Sin descripcion')

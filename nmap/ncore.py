@@ -1,3 +1,6 @@
+#Autor: Eduardo Eliezar Castillo Hernández
+#Fecha: 06/12/2019
+
 #Importando modulos generales
 import socket, threading, copy
 
@@ -319,8 +322,9 @@ class HostDetecter(object):
                 time_start = time()
             else:
                 if dest_address.exploded not in self.tcp_wait_list: continue
-
-                time_start = self.tcp_wait_list[dest_address.exploded]['TIME']
+                try:
+                    time_start = self.tcp_wait_list[dest_address.exploded]['TIME']
+                except: continue
 
             self.tcp_wait_list[dest_address.exploded] = {
                 'PORT': port,
