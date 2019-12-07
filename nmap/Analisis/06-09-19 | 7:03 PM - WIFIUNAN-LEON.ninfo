@@ -1,0 +1,191 @@
+erdu@PC-ERDU:~/Documentos/Python/nmap v1.5/nmap$ sudo python3 nmap.py -m 5 -r 65535 10.180.145.190/24
+
+..::-= INFORMACION DEL ANFITRION =-::..
+
+IP: 10.180.145.190      GATEWAY: 10.128.128.128 IF: wlp2s0
+
+
+..::-= DESCUBRIMIENTO DE HOST OBJETIVOS =-::..
+
+> 10.180.145.1 (-)                         ICMP PING (0): ???             TCP SYN (1): 1.63 ms
+> 10.180.145.2 (-)                         ICMP PING (0): ???             TCP SYN (1): 1.38 ms
+> 10.180.145.3 (-)                         ICMP PING (0): ???             TCP SYN (1): 6.0 ms
+> 10.180.145.4 (-)                         ICMP PING (0): ???             TCP SYN (1): 5.9 ms
+> 10.180.145.5 (-)                         ICMP PING (0): ???             TCP SYN (1): 7.33 ms
+> 10.180.145.6 (-)                         ICMP PING (0): ???             TCP SYN (1): 7.04 ms
+> 10.180.145.7 (-)                         ICMP PING (0): ???             TCP SYN (1): 6.93 ms
+> 10.180.145.8 (-)                         ICMP PING (0): ???             TCP SYN (1): 6.73 ms
+> 10.180.145.9 (-)                         ICMP PING (0): ???             TCP SYN (1): 6.66 ms
+> 10.180.145.10 (-)                        ICMP PING (0): ???             TCP SYN (1): 7.34 ms
+> 10.180.145.11 (-)                        ICMP PING (0): ???             TCP SYN (1): 7.36 ms
+> 10.180.145.12 (-)                        ICMP PING (0): ???             TCP SYN (1): 7.16 ms
+> 10.180.145.13 (-)                        ICMP PING (0): ???             TCP SYN (1): 6.98 ms
+> 10.180.145.14 (-)                        ICMP PING (0): ???             TCP SYN (1): 6.77 ms
+> 10.180.145.15 (-)                        ICMP PING (0): ???             TCP SYN (1): 6.57 ms
+> 10.180.145.16 (-)                        ICMP PING (0): ???             TCP SYN (1): 6.38 ms
+> 10.180.145.17 (-)                        ICMP PING (0): ???             TCP SYN (1): 8.85 ms
+> 10.180.145.18 (-)                        ICMP PING (0): ???             TCP SYN (1): 8.67 ms
+> 10.180.145.19 (-)                        ICMP PING (0): ???             TCP SYN (1): 8.26 ms
+> 10.180.145.20 (-)                        ICMP PING (0): ???             TCP SYN (1): 7.99 ms
+> 10.180.145.21 (-)                        ICMP PING (0): ???             TCP SYN (1): 8.46 ms
+> 10.180.145.22 (-)                        ICMP PING (0): ???             TCP SYN (1): 8.15 ms
+> 10.180.145.23 (-)                        ICMP PING (0): ???             TCP SYN (1): 7.9 ms
+> 10.180.145.24 (-)                        ICMP PING (0): ???             TCP SYN (1): 7.66 ms
+> 10.180.145.25 (-)                        ICMP PING (0): ???             TCP SYN (1): 7.41 ms
+
+Duracion total: 3.05 seg
+
+
+..::-= SONDEO DE PUERTOS EN HOST VIVOS =-::..
+
+>>> 10.180.145.1 (-)
+         > 80/tcp     http            World Wide Web HTTP       Estado: Abierto              Sondeos: 1    RTT: 11.11 ms
+
+        Puertos abiertos: 1
+        Puertos filtrados: 65533
+
+>>> 10.180.145.2 (-)
+         > 80/tcp     http            World Wide Web HTTP       Estado: Abierto              Sondeos: 1    RTT: 3.7 ms
+
+        Puertos abiertos: 1
+        Puertos filtrados: 65533
+
+>>> 10.180.145.3 (-)
+         > 80/tcp     http            World Wide Web HTTP       Estado: Abierto              Sondeos: 1    RTT: 1.05 seg
+
+        Puertos abiertos: 1
+        Puertos filtrados: 65533
+
+>>> 10.180.145.4 (-)
+         > 80/tcp     http            World Wide Web HTTP       Estado: Abierto              Sondeos: 1    RTT: 3.19 ms
+
+        Puertos abiertos: 1
+        Puertos filtrados: 65533
+
+>>> 10.180.145.5 (-)
+         > 80/tcp     http            World Wide Web HTTP       Estado: Abierto              Sondeos: 1    RTT: 11.57 ms
+
+        Puertos abiertos: 1
+        Puertos filtrados: 65533
+
+>>> 10.180.145.6 (-)
+         > 80/tcp     http            World Wide Web HTTP       Estado: Abierto              Sondeos: 1    RTT: 0.92 ms
+
+        Puertos abiertos: 1
+        Puertos filtrados: 65533
+
+>>> 10.180.145.7 (-)
+         > 80/tcp     http            World Wide Web HTTP       Estado: Abierto              Sondeos: 1    RTT: 65.82 ms
+
+        Puertos abiertos: 1
+        Puertos filtrados: 65533
+
+>>> 10.180.145.8 (-)
+         > 80/tcp     http            World Wide Web HTTP       Estado: Abierto              Sondeos: 1    RTT: 2.59 ms
+
+        Puertos abiertos: 1
+        Puertos filtrados: 65533
+
+>>> 10.180.145.9 (-)
+         > 80/tcp     http            World Wide Web HTTP       Estado: Abierto              Sondeos: 1    RTT: 2.07 ms
+
+        Puertos abiertos: 1
+        Puertos filtrados: 65533
+
+>>> 10.180.145.10 (-)
+         > 80/tcp     http            World Wide Web HTTP       Estado: Abierto              Sondeos: 1    RTT: 19.76 ms
+
+        Puertos abiertos: 1
+        Puertos filtrados: 65533
+
+>>> 10.180.145.11 (-)
+         > 80/tcp     http            World Wide Web HTTP       Estado: Abierto              Sondeos: 1    RTT: 64.56 ms
+
+        Puertos abiertos: 1
+        Puertos filtrados: 65533
+
+>>> 10.180.145.12 (-)
+         > 80/tcp     http            World Wide Web HTTP       Estado: Abierto              Sondeos: 1    RTT: 9.03 ms
+
+        Puertos abiertos: 1
+        Puertos filtrados: 65533
+
+>>> 10.180.145.13 (-)
+         > 80/tcp     http            World Wide Web HTTP       Estado: Abierto              Sondeos: 1    RTT: 90.13 ms
+
+        Puertos abiertos: 1
+        Puertos filtrados: 65533
+
+>>> 10.180.145.14 (-)
+         > 80/tcp     http            World Wide Web HTTP       Estado: Abierto              Sondeos: 1    RTT: 2.42 ms
+
+        Puertos abiertos: 1
+        Puertos filtrados: 65533
+
+>>> 10.180.145.15 (-)
+         > 80/tcp     http            World Wide Web HTTP       Estado: Abierto              Sondeos: 1    RTT: 0.88 ms
+
+        Puertos abiertos: 1
+        Puertos filtrados: 65533
+
+>>> 10.180.145.16 (-)
+         > 80/tcp     http            World Wide Web HTTP       Estado: Abierto              Sondeos: 1    RTT: 0.96 ms
+
+        Puertos abiertos: 1
+        Puertos filtrados: 65533
+
+>>> 10.180.145.17 (-)
+         > 80/tcp     http            World Wide Web HTTP       Estado: Abierto              Sondeos: 1    RTT: 12.35 ms
+
+        Puertos abiertos: 1
+        Puertos filtrados: 65533
+
+>>> 10.180.145.18 (-)
+         > 80/tcp     http            World Wide Web HTTP       Estado: Abierto              Sondeos: 1    RTT: 0.68 ms
+
+        Puertos abiertos: 1
+        Puertos filtrados: 65533
+
+>>> 10.180.145.19 (-)
+         > 80/tcp     http            World Wide Web HTTP       Estado: Abierto              Sondeos: 1    RTT: 5.33 ms
+
+        Puertos abiertos: 1
+        Puertos filtrados: 65533
+
+>>> 10.180.145.20 (-)
+         > 80/tcp     http            World Wide Web HTTP       Estado: Abierto              Sondeos: 1    RTT: 20.12 ms
+
+        Puertos abiertos: 1
+        Puertos filtrados: 65533
+
+>>> 10.180.145.21 (-)
+         > 80/tcp     http            World Wide Web HTTP       Estado: Abierto              Sondeos: 1    RTT: 1.69 ms
+
+        Puertos abiertos: 1
+        Puertos filtrados: 65533
+
+>>> 10.180.145.22 (-)
+         > 80/tcp     http            World Wide Web HTTP       Estado: Abierto              Sondeos: 1    RTT: 1.02 seg
+
+        Puertos abiertos: 1
+        Puertos filtrados: 65533
+
+>>> 10.180.145.23 (-)
+         > 80/tcp     http            World Wide Web HTTP       Estado: Abierto              Sondeos: 1    RTT: 6.1 ms
+
+        Puertos abiertos: 1
+        Puertos filtrados: 65533
+
+>>> 10.180.145.24 (-)
+         > 80/tcp     http            World Wide Web HTTP       Estado: Abierto              Sondeos: 1    RTT: 1.89 ms
+
+        Puertos abiertos: 1
+        Puertos filtrados: 65533
+
+>>> 10.180.145.25 (-)
+         > 80/tcp     http            World Wide Web HTTP       Estado: Abierto              Sondeos: 1    RTT: 11.64 ms
+
+        Puertos abiertos: 1
+        Puertos filtrados: 65533
+
+Duracion total: 55.14 min
